@@ -1,0 +1,63 @@
+# =============== #
+# Specific files  #
+# =============== #
+ProjectSettings/GoogleAarExplodeCache.xml
+
+
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Ll]ibrary/
+Temp/**
+Library/**
+Library/*
+Library
+Builds/**
+Builds/*
+Builds
+sysinfo.txt
+*.stackdump
+#*.meta
+.consulo
+#!Assets/Resources/*.meta
+#!Assets/Resources/*/*.meta
+!Assets/AudienceNetwork/Library
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+.consulo*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+test.apk
+Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.asset
+Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.asset.meta
+Images.meta
+/ios
+LocalCache
+Match3Engine/Match3Test/bin
+Assets/Jemast
+
+*.apk
