@@ -14,6 +14,10 @@ public class CharacterController : MonoBehaviour{
         rigidbody = GetComponent<Rigidbody2D>();
     }
 
+    void Start(){
+        target = transform.position;
+    }
+
     void Update(){
         if(!isOnPosition){
             MoveToTarget();

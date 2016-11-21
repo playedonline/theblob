@@ -14,20 +14,20 @@ public class Pathfinding : MonoBehaviour {
 	}
 	
 	
-	public void StartFindPath(Vector3 startPos, Vector3 targetPos) {
-		StartCoroutine(FindPath(startPos,targetPos));
+	public void StartFindPath(GameObject requester, Vector3 startPos, Vector3 targetPos) {
+		StartCoroutine(FindPath(requester, startPos,targetPos));
 	}
 	
-	IEnumerator FindPath(Vector3 startPos, Vector3 targetPos) {
+	IEnumerator FindPath(GameObject requester, Vector3 startPos, Vector3 targetPos) {
 
-		Vector3[] waypoints = new Vector3[0];
+		Node[] waypoints = new Node[0];
 		bool pathSuccess = false;
 		
 		Node startNode = grid.NodeFromWorldPoint(startPos);
 		Node targetNode = grid.NodeFromWorldPoint(targetPos);
 		
 		
-		if (startNode.walkable && targetNode.walkable) {
+		if (startNode.IsWalkable(requester) && targetNode.IsWalkable(requester)) {
 			Heap<Node> openSet = new Heap<Node>(grid.MaxSize);
 			HashSet<Node> closedSet = new HashSet<Node>();
 			openSet.Add(startNode);
@@ -42,7 +42,7 @@ public class Pathfinding : MonoBehaviour {
 				}
 				
 				foreach (Node neighbour in grid.GetNeighbours(currentNode)) {
-					if (!neighbour.walkable || closedSet.Contains(neighbour)) {
+					if (!neighbour.IsWalkable(requester) || closedSet.Contains(neighbour)) {
 						continue;
 					}
 					
@@ -66,7 +66,7 @@ public class Pathfinding : MonoBehaviour {
 		
 	}
 	
-	Vector3[] RetracePath(Node startNode, Node endNode) {
+	Node[] RetracePath(Node startNode, Node endNode) {
 		List<Node> path = new List<Node>();
 		Node currentNode = endNode;
 		
@@ -74,20 +74,20 @@ public class Pathfinding : MonoBehaviour {
 			path.Add(currentNode);
 			currentNode = currentNode.parent;
 		}
-		Vector3[] waypoints = SimplifyPath(path);
+		Node[] waypoints = SimplifyPath(path);
 		Array.Reverse(waypoints);
 		return waypoints;
 		
 	}
 	
-	Vector3[] SimplifyPath(List<Node> path) {
-		List<Vector3> waypoints = new List<Vector3>();
+	Node[] SimplifyPath(List<Node> path) {
+		List<Node> waypoints = new List<Node>();
 		Vector2 directionOld = Vector2.zero;
 		
 		for (int i = 1; i < path.Count; i ++) {
 			Vector2 directionNew = new Vector2(path[i-1].gridX - path[i].gridX,path[i-1].gridY - path[i].gridY);
 			if (directionNew != directionOld) {
-				waypoints.Add(path[i].worldPosition);
+				waypoints.Add(path[i]);
 			}
 			directionOld = directionNew;
 		}

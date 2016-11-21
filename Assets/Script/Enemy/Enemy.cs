@@ -7,13 +7,22 @@ public class Enemy : MonoBehaviour {
 
     public float acceleration;
 
+    private int frameCount = 0;
+
     private float velocity;
 
     void Awake(){
         enemyController = GetComponent<EnemyController>();
+        followTarget = FindObjectOfType<Character>().transform;
     }
 
     void Update(){
+
+        frameCount++;
+        if(frameCount % 4 != 0){
+            return;
+        }
+
         if(!followTarget){
             Wander();
         } else {
@@ -33,7 +42,7 @@ public class Enemy : MonoBehaviour {
 
     private void Follow(){
         // Try to attack the target
-//        enemyController.MoveTo(followTarget.position);
+        enemyController.MoveTo(followTarget.position);
     }
 
 }

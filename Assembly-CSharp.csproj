@@ -50,7 +50,6 @@
      <Compile Include="Assets\Pathfinding\Node.cs" />
      <Compile Include="Assets\Pathfinding\PathRequestManager.cs" />
      <Compile Include="Assets\Pathfinding\Pathfinding.cs" />
-     <Compile Include="Assets\Pathfinding\Unit.cs" />
      <Compile Include="Assets\Script\BoardController.cs" />
      <Compile Include="Assets\Script\CameraController.cs" />
      <Compile Include="Assets\Script\Character\Character.cs" />

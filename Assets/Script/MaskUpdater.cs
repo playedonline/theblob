@@ -40,6 +40,7 @@ public class MaskUpdater : MonoBehaviour {
     }
 
     void Update() {
+        return;
         if (Time.time - lastMaskUpdate > 0.1f)
         {
             lastMaskUpdate = Time.time;
