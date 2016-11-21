@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ModuleManager">
+    <modules>
+      <module name="TheBlob" dirurl="file://$PROJECT_DIR$" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.2 (predefined)">
+            <define>UNITY_EDITOR</define>
+            <define>DEBUG</define>
+            <define>TRACE</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-firstpass" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-UnityScript-firstpass" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-Editor" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/ClearStencilBufferComponentEditor.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/ClearStencilBufferComponentEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/SpriteMaskEditor.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/SpriteMaskEditor.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/BoardController.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/BoardController.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/CharacterController.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/CharacterController.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/MaskUpdater.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/MeshTest.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample05.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample05.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06Rotator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06Rotator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06Scaller.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06Scaller.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06Translator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06Translator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample07BloodController.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample07BloodController.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample07DestroyBlood.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample07DestroyBlood.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample11BitesController.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample11BitesController.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/ClearStencilBufferComponent.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/ClearStencilBufferComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SkipMasking.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SkipMasking.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMask.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMask.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMaskingComponent.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMaskingComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMaskingPart.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMaskingPart.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+    </modules>
+  </component>
+</project>
