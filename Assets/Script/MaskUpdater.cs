@@ -28,7 +28,7 @@ public class MaskUpdater : MonoBehaviour
     void Awake()
     {
         textureWidth = referenceTextureWidth / textureSizeFactor;
-        textureHeight = referenceTextureHeight / textureSizeFactor; 
+        textureHeight = referenceTextureHeight / textureSizeFactor;
 
         mask = GetComponent<SpriteMask>();
         mask.transform.localScale = textureSizeFactor * Vector3.one;
