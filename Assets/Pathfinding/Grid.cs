@@ -62,8 +62,8 @@ public class Grid : MonoBehaviour {
 	
 
 	public Node NodeFromWorldPoint(Vector3 worldPosition) {
-		float percentX = (worldPosition.x + gridWorldSize.x/2) / gridWorldSize.x;
-		float percentY = (worldPosition.z + gridWorldSize.y/2) / gridWorldSize.y;
+		float percentX = worldPosition.x / gridWorldSize.x;
+		float percentY = worldPosition.y / gridWorldSize.y;
 		percentX = Mathf.Clamp01(percentX);
 		percentY = Mathf.Clamp01(percentY);
 
@@ -73,12 +73,12 @@ public class Grid : MonoBehaviour {
 	}
 	
 	void OnDrawGizmos() {
-        Gizmos.color = Color.red;
+        Gizmos.color = Color.blue;
         Vector3 size = new Vector3(gridWorldSize.x, gridWorldSize.y, 1);
 		Gizmos.DrawWireCube(transform.position + size * 0.5f, size);
 		if (grid != null && displayGridGizmos) {
 			foreach (Node n in grid) {
-				Gizmos.color = (n.walkable)?Color.white:Color.red;
+				Gizmos.color = (n.walkable)?n.occupy != null ? Color.green : Color.white : Color.red;
 				Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter*0.95f));
 			}
 		}

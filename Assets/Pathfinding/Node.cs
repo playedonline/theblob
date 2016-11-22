@@ -4,6 +4,7 @@ using System.Collections;
 public class Node : IHeapItem<Node> {
 	
 	public bool walkable;
+    public GameObject occupy;
 	public Vector3 worldPosition;
 	public int gridX;
 	public int gridY;
@@ -34,6 +35,10 @@ public class Node : IHeapItem<Node> {
 			heapIndex = value;
 		}
 	}
+
+    public bool IsWalkable(GameObject occupier){
+		return walkable && occupier != occupy;
+    }
 
 	public int CompareTo(Node nodeToCompare) {
 		int compare = fCost.CompareTo(nodeToCompare.fCost);
