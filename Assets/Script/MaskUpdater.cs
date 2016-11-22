@@ -1,11 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 //[ExecuteInEditMode]
-public class MaskUpdater : MonoBehaviour {
+public class MaskUpdater : MonoBehaviour
+{
 
     SpriteMask mask;
     Camera screenCamera;
-    GameObject robot;
 
     private const int referenceTextureWidth = 1080;
     private const int referenceTextureHeight = 1920;
@@ -22,15 +23,16 @@ public class MaskUpdater : MonoBehaviour {
 
     float lastMaskUpdate;
 
+    private Dictionary<Enemy, Vector3> enemyPositions = new Dictionary<Enemy, Vector3>();
+
     void Awake()
     {
         textureWidth = referenceTextureWidth / textureSizeFactor;
-        textureHeight = referenceTextureHeight / textureSizeFactor;
+        textureHeight = referenceTextureHeight / textureSizeFactor; 
 
         mask = GetComponent<SpriteMask>();
         mask.transform.localScale = textureSizeFactor * Vector3.one;
         screenCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
-        robot = GameObject.Find("Robot");
 
         maskRenderTexture = RenderTexture.GetTemporary(textureWidth, textureHeight);
         gameRenderTexture = screenCamera.targetTexture;
@@ -39,7 +41,8 @@ public class MaskUpdater : MonoBehaviour {
         maskTexture = new Texture2D(textureWidth, textureHeight);
     }
 
-    void Update() {
+    void Update()
+    {
         if (Time.time - lastMaskUpdate > 0.1f)
         {
             lastMaskUpdate = Time.time;
@@ -52,9 +55,12 @@ public class MaskUpdater : MonoBehaviour {
 
     void UpdateMaskSprite()
     {
-        Vector3 originalPos = robot.transform.localPosition;
-        robot.transform.localScale = 0.5f * Vector3.one;
-        robot.transform.localPosition = 0.5f * robot.transform.localPosition;
+        foreach (Enemy enemy in BoardController.Instance.enemies)
+        {
+            enemyPositions[enemy] = enemy.transform.position;
+            enemy.transform.localScale = 0.5f * Vector3.one;
+            enemy.transform.position = 0.5f * enemy.transform.position;
+        }
         // Disable camera background, set it to render only our object
         Color oldBgColor = screenCamera.backgroundColor;
         int oldSortingLayerId = screenCamera.cullingMask;
@@ -79,7 +85,7 @@ public class MaskUpdater : MonoBehaviour {
 
         // Create the sprite renderer
         Rect textureFetchRect = new Rect(0, 0, textureWidth, textureHeight);
-        Sprite maskSprite = Sprite.Create(maskTexture, textureFetchRect, Vector2.one/2.0f, 1);
+        Sprite maskSprite = Sprite.Create(maskTexture, textureFetchRect, Vector2.one / 2.0f, 1);
         mask.sprite = maskSprite;
 
         // Restore camera properties
@@ -87,8 +93,12 @@ public class MaskUpdater : MonoBehaviour {
         screenCamera.backgroundColor = oldBgColor;
         screenCamera.cullingMask = oldSortingLayerId;
         screenCamera.clearFlags = oldClearFlags;
-        robot.transform.localScale = Vector3.one;
-        robot.transform.localPosition = originalPos;
+
+        foreach (Enemy enemy in BoardController.Instance.enemies)
+        {
+            enemy.transform.localScale = Vector3.one;
+            enemy.transform.position = enemyPositions[enemy];
+        }
 
     }
 }
