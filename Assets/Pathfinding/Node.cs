@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class Node : IHeapItem<Node> {
 	
 	public bool walkable;
+    public bool isDirty;
     public GameObject occupy;
 	public Vector3 worldPosition;
 	public int gridX;

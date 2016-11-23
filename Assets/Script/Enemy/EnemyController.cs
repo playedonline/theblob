@@ -1,28 +1,38 @@
-using System.Collections;
+using System;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour {
 
+    public Action reachedWaypoint;
+
     public Vector2 target;
     public float speed = 100;
+    public bool isMove;
 
     private Node[] path;
     private int targetIndex;
     private BoardController board;
+    private bool isReached;
 
     void Start() {
         board = FindObjectOfType<BoardController>();
     }
 
     void Update(){
-        if(target != null && path != null) {
+        if(isMove && path != null) {
             FollowTarget();
         }
     }
 
     public void MoveTo(Vector2 target){
+        isMove = true;
         this.target = target;
         PathRequestManager.RequestPath(gameObject, transform.position, target, OnPathFound);
+    }
+
+    public void Stop(){
+        isMove = false;
+        path = null;
     }
 
     /*
@@ -33,11 +43,14 @@ public class EnemyController : MonoBehaviour {
 
     private void FollowTarget(){
         Vector3 currentWaypoint = GetWaypoint();
-        if (targetIndex < path.Length && transform.position == currentWaypoint) {
-            targetIndex ++;
-            currentWaypoint = GetWaypoint();
+        if(transform.position == currentWaypoint){
+            if (targetIndex < path.Length) {
+                targetIndex ++;
+                currentWaypoint = GetWaypoint();
+            }
+        } else {
+            transform.position = Vector3.MoveTowards(transform.position,currentWaypoint,speed * Time.deltaTime);
         }
-        transform.position = Vector3.MoveTowards(transform.position,currentWaypoint,speed * Time.deltaTime);
     }
 
     private Vector3 GetWaypoint(){

@@ -85,7 +85,7 @@ public class Grid : MonoBehaviour {
 		if (grid != null && displayGridGizmos) {
 			foreach (Node n in grid) {
 				Gizmos.color = (n.walkable)?n.occupy != null ? Color.green : Color.white : Color.red;
-				Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter*0.95f));
+				Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (nodeDiameter*0.95f));
 			}
 		}
 	}
