@@ -40,6 +40,8 @@ public class Character : MonoBehaviour {
         string animationName = animationPrefix + "_" + animationSuffix;
         if (animation.AnimationName != animationName)
             animation.AnimationName = animationName;
+
+        transform.localScale = new Vector3(controller.isMovingLeft ? 1 : -1, 1, 1);
     }
 
     void OnTriggerEnter2D(Collider2D other)

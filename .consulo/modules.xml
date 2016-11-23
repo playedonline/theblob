@@ -63,10 +63,56 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/ClearStencilBufferComponentEditor.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/ClearStencilBufferComponentEditor.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/SpriteMaskEditor.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/SpriteMaskEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/Editor/AtlasAssetInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/Editor/AtlasAssetInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/Editor/SkeletonDataAssetInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/Editor/SkeletonDataAssetInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/AssetDatabaseAvailabilityDetector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/AssetDatabaseAvailabilityDetector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/BoneFollowerInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/BoneFollowerInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/Menus.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/Menus.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonAnimationInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonAnimationInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonAnimatorInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonAnimatorInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonBaker.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonBaker.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonRendererInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SkeletonRendererInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SpineAttributeDrawers.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SpineAttributeDrawers.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SpineEditorUtilities.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SpineEditorUtilities.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SpineInspectorUtility.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Editor/SpineInspectorUtility.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/BoundingBoxFollower/Editor/BoundingBoxFollowerInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/BoundingBoxFollower/Editor/BoundingBoxFollowerInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/CustomMaterials/Editor/SkeletonRendererCustomMaterialsInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/CustomMaterials/Editor/SkeletonRendererCustomMaterialsInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/Editor/SkeletonRagdoll2DInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/Editor/SkeletonRagdoll2DInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/Editor/SkeletonRagdollInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/Editor/SkeletonRagdollInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonGraphic/Editor/SkeletonGraphicInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonGraphic/Editor/SkeletonGraphicInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonPartsRendererInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonPartsRendererInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonRenderSeparatorInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonRenderSeparatorInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/Editor/SkeletonUtilityBoneInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/Editor/SkeletonUtilityBoneInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/Editor/SkeletonUtilityInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/Editor/SkeletonUtilityInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/Editor/SkeletonUtilitySubmeshRendererInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/Editor/SkeletonUtilitySubmeshRendererInspector.cs.meta" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -86,12 +132,44 @@
           <orderEntry type="dot-net-library" name="System.Core" />
           <orderEntry type="dot-net-library" name="System.Xml" />
           <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.xml" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
         </module-layer>
       </module>
       <module name="Assembly-CSharp" current-layer="Default">
         <module-layer name="Default">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Pathfinding/Grid.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Pathfinding/Grid.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Pathfinding/Heap.cs" />
@@ -111,8 +189,11 @@
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Character/CharacterController.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Character/CharacterController.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/Enemy.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/Enemy.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/EnemyController.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/EnemyController.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Target.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Target.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample05.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample05.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06.cs" />
@@ -139,6 +220,158 @@
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMaskingComponent.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMaskingPart.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/SpriteMaskingPart.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Animation.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Animation.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/AnimationState.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/AnimationState.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/AnimationStateData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/AnimationStateData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Atlas.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Atlas.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/AtlasAttachmentLoader.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/AtlasAttachmentLoader.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/Attachment.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/Attachment.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/AttachmentLoader.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/AttachmentLoader.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/AttachmentType.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/AttachmentType.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/BoundingBoxAttachment.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/BoundingBoxAttachment.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/MeshAttachment.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/MeshAttachment.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/PathAttachment.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/PathAttachment.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/RegionAttachment.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/RegionAttachment.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/VertexAttachment.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Attachments/VertexAttachment.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/BlendMode.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/BlendMode.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Bone.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Bone.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/BoneData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/BoneData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Event.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Event.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/EventData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/EventData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/ExposedList.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/ExposedList.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/IUpdatable.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/IUpdatable.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/IkConstraint.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/IkConstraint.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/IkConstraintData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/IkConstraintData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Json.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Json.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/MathUtils.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/MathUtils.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/PathConstraint.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/PathConstraint.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/PathConstraintData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/PathConstraintData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Skeleton.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Skeleton.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonBinary.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonBinary.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonBounds.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonBounds.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonJson.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SkeletonJson.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Skin.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Skin.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Slot.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/Slot.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SlotData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/SlotData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/TransformConstraint.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/TransformConstraint.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/TransformConstraintData.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-csharp/TransformConstraintData.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/AtlasAsset.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/AtlasAsset.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/SkeletonDataAsset.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Asset Types/SkeletonDataAsset.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/BoneFollower.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/BoneFollower.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/ISkeletonAnimation.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/ISkeletonAnimation.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysMeshGenerator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysMeshGenerator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysSimpleMeshGenerator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysSimpleMeshGenerator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysSubmeshSetMeshGenerator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysSubmeshSetMeshGenerator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysSubmeshedMeshGenerator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/Arrays/ArraysSubmeshedMeshGenerator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/DoubleBuffered.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/DoubleBuffered.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/DoubleBufferedMesh.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/DoubleBufferedMesh.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/ISimpleMeshGenerator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/ISimpleMeshGenerator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/ISubmeshedMeshGenerator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/ISubmeshedMeshGenerator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/SpineMesh.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Mesh Generation/SpineMesh.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/AtlasRegionAttacher.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/AtlasRegionAttacher.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/BoundingBoxFollower/BoundingBoxFollower.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/BoundingBoxFollower/BoundingBoxFollower.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/CustomMaterials/SkeletonRendererCustomMaterials.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/CustomMaterials/SkeletonRendererCustomMaterials.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/CustomSkin.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/CustomSkin.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ghost/SkeletonGhost.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ghost/SkeletonGhost.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ghost/SkeletonGhostRenderer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ghost/SkeletonGhostRenderer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/SkeletonRagdoll.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/SkeletonRagdoll.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/SkeletonRagdoll2D.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/Ragdoll/SkeletonRagdoll2D.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonGraphic/SkeletonGraphic.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonGraphic/SkeletonGraphic.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/SkeletonPartsRenderer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/SkeletonPartsRenderer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/SkeletonRenderSeparator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonRenderSeparator/SkeletonRenderSeparator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityEyeConstraint.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityEyeConstraint.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityGroundConstraint.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityGroundConstraint.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityKinematicShadow.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SkeletonUtility Modules/SkeletonUtilityKinematicShadow.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SpriteAttacher.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/SpriteAttacher.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/YieldInstructions/WaitForSpineAnimationComplete.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/YieldInstructions/WaitForSpineAnimationComplete.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/YieldInstructions/WaitForSpineEvent.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/Modules/YieldInstructions/WaitForSpineEvent.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonAnimation.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonAnimation.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonAnimator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonAnimator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonExtensions.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonExtensions.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonRenderer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonRenderer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtility.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtility.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtilityBone.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtilityBone.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtilityConstraint.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtilityConstraint.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtilitySubmeshRenderer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SkeletonUtility/SkeletonUtilitySubmeshRenderer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SpineAttributes.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/spine-unity/SpineAttributes.cs.meta" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -154,6 +387,96 @@
           <orderEntry type="dot-net-library" name="System.Core" />
           <orderEntry type="dot-net-library" name="System.Xml" />
           <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.xml" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DemiLib/Core/DemiLib.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DemiLib/Core/DemiLib.xml" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween43.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween43.xml" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween46.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween46.xml" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween50.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTween/DOTween50.xml" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/DOTweenPro.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/DOTweenPro.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
         </module-layer>
       </module>
     </modules>

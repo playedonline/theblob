@@ -25,24 +25,21 @@ public class BoardController : MonoBehaviour {
 
     }
 
-    void Update()
-    {
-        if (Time.time > nextTargetSpawnTime)
-        {
-            nextTargetSpawnTime = Time.time + Random.Range(2f, 3f);
-            GameObject target = (GameObject)Instantiate(Resources.Load("prefabs/core/Target"));
-            target.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
-        }
-
-        if (Time.time > nextEnemySpawnTime)
-        {
-            nextEnemySpawnTime = Time.time + Random.Range(2f, 3f);
-            GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
-            enemy.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
-        }
+    void Update() {
     }
 
     void OnDrawGizmos(){
     }
 
+    public void SpawnEnemy(){
+        nextEnemySpawnTime = Time.time + Random.Range(2f, 3f);
+        GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
+        enemy.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
+    }
+
+    public void SpawnItem(){
+        nextTargetSpawnTime = Time.time + Random.Range(2f, 3f);
+        GameObject target = (GameObject)Instantiate(Resources.Load("prefabs/core/Target"));
+        target.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
+    }
 }
