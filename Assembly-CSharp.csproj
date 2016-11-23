@@ -152,6 +152,7 @@
      <None Include="Assets\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
      <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
      <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Plugins\Editor\RelationsInspector\changelog.txt" />
      <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
      <None Include="Assets\SpriteMask\Readme.txt" />
@@ -159,10 +160,12 @@
      <None Include="Assets\Resources\blob.atlas.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
      <None Include="Assets\SpriteMask\Resources\ClearStencil.shader" />
+     <None Include="Assets\Plugins\DarkTonic\MasterAudio\ReleaseNotes.txt" />
      <None Include="Assets\SpriteMask\Resources\SpriteMask.shader" />
      <None Include="Assets\spine-unity\Shaders\Bones.shader" />
      <None Include="Assets\spine-unity\Modules\Ghost\Shaders\SkeletonGhost.shader" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\Editor\RelationsInspector\README.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\spine-unity\Modules\SkeletonGraphic\Shaders\SkeletonGraphic.shader" />
      <None Include="Assets\spine-unity\Shaders\Skeleton.shader" />
@@ -200,6 +203,10 @@
  <Reference Include="DOTween46">
  <HintPath>/Users/elibroide/Development/TheBlob/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{05CDFC8A-B563-A669-ED15-5BE2181A1015}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

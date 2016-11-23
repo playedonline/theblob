@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DarkTonic.MasterAudio;
 using Spine.Unity;
 using UnityEngine;
 
@@ -88,7 +89,7 @@ public class Character : MonoBehaviour {
         }
 
         List<Enemy> remove = new List<Enemy>();
-        foreach (Enemy enemy in BoardController.Instance.enemies)
+        foreach (Enemy enemy in FindObjectsOfType<Enemy>())
         {
             Node enemyNode = BoardController.Instance.grid.NodeFromWorldPoint(enemy.transform.position);
             if (splatNodes.Contains(enemyNode))
@@ -100,6 +101,8 @@ public class Character : MonoBehaviour {
 
         foreach (Enemy enemy in remove)
             BoardController.Instance.enemies.Remove(enemy);
+
+        MasterAudio.PlaySound("Fart");
     }
 
 }

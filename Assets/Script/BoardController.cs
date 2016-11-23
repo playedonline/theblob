@@ -43,15 +43,16 @@ public class BoardController : MonoBehaviour {
             nextEnemySpawnTime = Time.time + Random.Range(minSpawnEnemy, maxSpawnEnemy);
             GameObject enemy = Spawn("prefabs/core/Enemy");
             totalEnemiesSpawned++;
-            enemies.Add(enemy.GetComponent<Enemy>());
+            var enemyComponent = enemy.GetComponentInChildren<Enemy>();
+            enemies.Add(enemyComponent);
         }
     }
 
     Node FindUnspatteredArea(){
         Node node = grid.nodes[0, 0];
         for(int i = 0; i < 10000; i++){
-            var x = UnityEngine.Random.Range(0, grid.nodes.GetLength(0));
-            var y = UnityEngine.Random.Range(0, grid.nodes.GetLength(1));
+            var x = UnityEngine.Random.Range(2, grid.nodes.GetLength(0) - 2);
+            var y = UnityEngine.Random.Range(2, grid.nodes.GetLength(1) - 2);
             node = grid.nodes[x, y];
             if(!node.isDirty){
                 return node;

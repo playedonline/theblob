@@ -4,13 +4,13 @@
     <list default="true" id="c90ca494-24af-4c62-b3d3-8575f2f406ca" name="Default" comment="" />
     <ignored path=".consulo/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="/Character.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479902282239" ignored="false" />
+    <file path="/Character.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911360496" ignored="false" />
     <file path="/CharacterController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479902206447" ignored="false" />
     <file path="/MaskUpdater.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479892353652" ignored="false" />
     <file path="/MeshTest.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479733238252" ignored="false" />
-    <file path="/BoardController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479909630379" ignored="false" />
+    <file path="/BoardController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911090153" ignored="false" />
     <file path="/CameraController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479909536481" ignored="false" />
-    <file path="/Enemy.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479909859776" ignored="false" />
+    <file path="/Enemy.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911024267" ignored="false" />
     <file path="/EnemyController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479908622372" ignored="false" />
     <file path="/Grid.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479904403594" ignored="false" />
     <file path="/Pathfinding.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479749243127" ignored="false" />
@@ -21,6 +21,7 @@
     <file path="/Background.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479906474626" ignored="false" />
     <file path="/Float.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479907868242" ignored="false" />
     <file path="/Floating.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479907922113" ignored="false" />
+    <file path="/dummy.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479910858878" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CameraController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/CameraController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+              <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
               <folding>
                 <marker date="1479909876000" expanded="false" signature="6:77" placeholder="..." />
               </folding>
@@ -67,7 +58,7 @@
       <file leaf-file-name="EnemyController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
+            <state relative-caret-position="-729">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -76,11 +67,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BoardController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/BoardController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="327">
+              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Character.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Character/Character.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1470">
+              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -112,7 +116,6 @@
         <option value="$PROJECT_DIR$/Assets/Pathfinding/Pathfinding.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MaskUpdater.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Character/CharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Character/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding/Node.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding/Grid.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Background.cs" />
@@ -120,8 +123,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/Floating.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/BoardController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/BoardController.cs" />
       </list>
     </option>
   </component>
@@ -269,7 +273,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="camera&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/CameraController.cs&#10;enemy&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/Enemy/Enemy.cs&#10;pathfin&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Pathfinding/Pathfinding.cs&#10;enemycon&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/Enemy/EnemyController.cs&#10;character&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/Character/Character.cs&#10;path&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Pathfinding/PathRequestManager.cs&#10;grid&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Pathfinding/Grid.cs" />
+    <property name="SearchEverywhereHistoryKey" value="boardcon&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/BoardController.cs&#10;character&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/Character/Character.cs&#10;camera&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/CameraController.cs&#10;enemy&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/Enemy/Enemy.cs&#10;pathfin&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Pathfinding/Pathfinding.cs&#10;enemycon&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Script/Enemy/EnemyController.cs&#10;path&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Pathfinding/PathRequestManager.cs&#10;grid&#9;FILE&#9;file:///Users/elibroide/Development/TheBlob/Assets/Pathfinding/Grid.cs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -352,12 +356,12 @@
       <workItem from="1479731160375" duration="5507000" />
       <workItem from="1479739898339" duration="3574000" />
       <workItem from="1479744946326" duration="13122000" />
-      <workItem from="1479901953046" duration="7127000" />
+      <workItem from="1479901953046" duration="8519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32095000" />
+    <option name="totallyTimeSpent" value="33487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1916" height="1177" extended-state="6" />
@@ -449,9 +453,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <option name="time" value="30" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="#UnityAttachApplication">
+        <watch expression="BoardController.Instance" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs">
@@ -496,7 +504,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,7 +578,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -676,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Character/Character.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Heap.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -728,10 +732,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/BoardController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="390">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Character/Character.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -740,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
+        <state relative-caret-position="-729">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -748,20 +760,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/CameraController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
           <folding>
             <marker date="1479909876000" expanded="false" signature="6:77" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/BoardController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

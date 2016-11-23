@@ -65,6 +65,88 @@
           <extension id="unity3d-nunit-child" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/AudioEventInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/AudioEventInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/AudioScriptOrderManager.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/AudioScriptOrderManager.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/AudioUndoHelper.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/AudioUndoHelper.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/ButtonClickerInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/ButtonClickerInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DTGUIHelper.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DTGUIHelper.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DynamicGroupVariationInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DynamicGroupVariationInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DynamicSoundGroupCreatorInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DynamicSoundGroupCreatorInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DynamicSoundGroupInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/DynamicSoundGroupInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/FootstepsSoundsInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/FootstepsSoundsInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioClipManager.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioClipManager.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioGroupInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioGroupInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioHierIcon.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioHierIcon.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioInspectorResources.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioInspectorResources.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioManager.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioManager.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioSoundUpgrader.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioSoundUpgrader.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterCustomEventPropertyDrawer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterCustomEventPropertyDrawer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PersistChanges/MAComponentPatch.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PersistChanges/MAComponentPatch.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PersistChanges/MAGOSetting.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PersistChanges/MAGOSetting.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PersistChanges/MAObjectContext.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PersistChanges/MAObjectContext.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PlaylistControllerInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/PlaylistControllerInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/SoundGroupOrganizerInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/SoundGroupOrganizerInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/SoundGroupPropertyDrawer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/SoundGroupPropertyDrawer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/SoundGroupVariationInspector.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/DarkTonic/MasterAudio/SoundGroupVariationInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/BackendUtil.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/BackendUtil.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/DrawUtil.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/DrawUtil.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/MinimalBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/MinimalBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/ScriptableObjectBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/ScriptableObjectBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/ScriptableObjectBackendToolbar.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/BackendUtils/ScriptableObjectBackendToolbar.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/AutoBackend/RIAutoBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/AutoBackend/RIAutoBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/AutoBackend/ReflectionUtil.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/AutoBackend/ReflectionUtil.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/HierarchyExample/SceneHierarchyBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/HierarchyExample/SceneHierarchyBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/HierarchyExample/TagBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/HierarchyExample/TagBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/MasterAudioEventBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/MasterAudioEventBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/SocialNetworkExample/Person.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/SocialNetworkExample/Person.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/SocialNetworkExample/SocialNetworkBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/SocialNetworkExample/SocialNetworkBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/SocialNetworkExample/StudyNetworkBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/SocialNetworkExample/StudyNetworkBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/TypeGraphExample/TypeInheritanceBackend.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/TypeGraphExample/TypeInheritanceBackend.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/TypeGraphExample/TypeUtility.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/Backends/TypeGraphExample/TypeUtility.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/RelationsInspectorLink.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/RelationsInspectorLink.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/RelationsInspectorMenuItem.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/RelationsInspectorMenuItem.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/ClearStencilBufferComponentEditor.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/ClearStencilBufferComponentEditor.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Scripts/Editor/SpriteMaskEditor.cs" />
@@ -135,6 +217,20 @@
           <orderEntry type="module-library" exported="">
             <library>
               <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/RelationsInspector.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/RelationsInspector.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
                 <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll!/" />
               </binaries>
               <documentation>
@@ -180,7 +276,110 @@
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Pathfinding/PathRequestManager.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Pathfinding/Pathfinding.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Pathfinding/Pathfinding.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_Bootstrapper.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_Bootstrapper.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_DestroyFinishedParticle.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_DestroyFinishedParticle.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_EnemyOne.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_EnemyOne.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_GameScene.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_GameScene.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_Laser.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_Laser.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_LocalizationUI.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_LocalizationUI.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_PlayerControl.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_PlayerControl.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_PlayerSpawnerControl.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_PlayerSpawnerControl.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_SampleICustomEventReceiver.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_SampleICustomEventReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_TestUI.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/ExampleScenes/Scripts/MA_TestUI.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/ButtonClicker.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/ButtonClicker.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/EventSounds.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/EventSounds.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/FootstepSounds.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/FootstepSounds.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/MechanimStateCustomEvents.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/MechanimStateCustomEvents.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/MechanimStateSounds.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Events/MechanimStateSounds.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/ResultObjects/PlaySoundResult.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/ResultObjects/PlaySoundResult.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/AudioEvent.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/AudioEvent.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/AudioEventGroup.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/AudioEventGroup.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/AudioScriptOrder.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/AudioScriptOrder.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/BusFadeInfo.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/BusFadeInfo.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/CustomEvent.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/CustomEvent.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/DuckGroupInfo.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/DuckGroupInfo.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/DynamicGroupVariation.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/DynamicGroupVariation.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/DynamicSoundGroup.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/DynamicSoundGroup.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/FootstepGroup.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/FootstepGroup.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/GroupBus.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/GroupBus.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/GroupFadeInfo.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/GroupFadeInfo.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/ICustomEventReceiver.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/ICustomEventReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MasterAudioGroup.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MasterAudioGroup.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MasterAudioSettings.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MasterAudioSettings.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MasterCustomEventAttribute.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MasterCustomEventAttribute.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MusicSetting.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/MusicSetting.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/SoundGroupAttribute.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/SoundGroupAttribute.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/SoundGroupVariation.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/SoundGroupVariation.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/SoundGroupVariationUpdater.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Settings/SoundGroupVariationUpdater.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/AudioPrioritizer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/AudioPrioritizer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/AudioResourceOptimizer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/AudioResourceOptimizer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/MasterAudio.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/MasterAudio.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/PersistentAudioSettings.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/PersistentAudioSettings.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/SingletonScriptable.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/SingletonScriptable.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/SoundGroupOrganizer.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Singleton/SoundGroupOrganizer.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/ArrayListUtil.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/ArrayListUtil.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/AudioUtil.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/AudioUtil.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/CoroutineHelper.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/CoroutineHelper.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/DTMonoHelper.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/DTMonoHelper.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/DelayBetweenSongs.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/DelayBetweenSongs.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/DynamicSoundGroupCreator.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/DynamicSoundGroupCreator.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/PlaylistController.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/PlaylistController.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/UtilStrings.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/DarkTonic/MasterAudio/Scripts/Utility/UtilStrings.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/RelationsInspector/AutoBackendAttributes.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Plugins/RelationsInspector/AutoBackendAttributes.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Background.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Background.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/BoardController.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/BoardController.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/CameraController.cs" />
@@ -194,6 +393,7 @@
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/EnemyController.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/EnemyController.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Floating.cs" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Floating.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Target.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Target.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample05.cs" />
@@ -389,6 +589,13 @@
           <orderEntry type="dot-net-library" name="System.Core" />
           <orderEntry type="dot-net-library" name="System.Xml" />
           <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Development/TheBlob/Assets/Plugins/Editor/RelationsInspector/RelationsInspector.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
           <orderEntry type="module-library" exported="">
             <library>
               <binaries>
