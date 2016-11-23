@@ -39,6 +39,7 @@ public class BoardController : MonoBehaviour {
             nextEnemySpawnTime = Time.time + Random.Range(2f, 3f);
             GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
             enemy.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
+            enemies.Add(enemy.GetComponent<Enemy>());
         }
     }
 
