@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using DG.Tweening;
 
 public class Enemy : MonoBehaviour {
 
@@ -37,6 +38,8 @@ public class Enemy : MonoBehaviour {
         }
         isThink = difference.magnitude < 2;
         frameCount++;
+
+        CleanTile();
     }
 
     void OnDrawGizmos(){
@@ -97,4 +100,15 @@ public class Enemy : MonoBehaviour {
         // Try to attack the target
         enemyController.MoveTo(followTarget.position);
     }
+
+    private void CleanTile()
+    {
+        Node node = BoardController.Instance.grid.NodeFromWorldPoint(transform.position);
+        foreach (GameObject splat in node.splats)
+        {
+            splat.GetComponent<SpriteRenderer>().DOColor(new Color(1,1,1,0), 0.7f).OnComplete(() => { Destroy(splat); });
+        }
+        node.splats.Clear();
+    }
+
 }
