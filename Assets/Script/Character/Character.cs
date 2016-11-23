@@ -80,7 +80,7 @@ public class Character : MonoBehaviour {
                 }
             }
 
-            chance *= 0.5f;
+            chance *= 0.8f;
             currNeighbors = nextNeighbors;
             nextNeighbors = new List<Node>();
         }
