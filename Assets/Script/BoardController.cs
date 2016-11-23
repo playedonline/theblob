@@ -8,9 +8,6 @@ public class BoardController : MonoBehaviour {
 
     public Grid grid;
 
-    public List<GameObject> enemies = new List<GameObject>();
-    public List<GameObject> targets = new List<GameObject>();
-
     private static BoardController instance;
     public static BoardController Instance { get { return instance; } }
 
@@ -49,14 +46,10 @@ public class BoardController : MonoBehaviour {
 
     void Update()
     {
-        foreach(var enemy in enemies){
-            Debug.Log("if " + (enemy != null));
-        }
         if (Time.time > nextTargetSpawnTime)
         {
             nextTargetSpawnTime = Time.time + Random.Range(minSpawnTarget, maxSpawnTarget);
             GameObject target = Spawn("prefabs/core/Target");
-            targets.Add(target);
         }
 
         if (Time.time > nextEnemySpawnTime)
@@ -64,7 +57,6 @@ public class BoardController : MonoBehaviour {
             nextEnemySpawnTime = Time.time + Random.Range(minSpawnEnemy, maxSpawnEnemy);
             GameObject enemy = Spawn("prefabs/core/Enemy");
             totalEnemiesSpawned++;
-            enemies.Add(enemy);
         }
     }
 

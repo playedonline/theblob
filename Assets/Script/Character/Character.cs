@@ -35,7 +35,7 @@ public class Character : MonoBehaviour {
             return;
         }
 
-        foreach (GameObject enemy in BoardController.Instance.enemies)
+        foreach (Enemy enemy in GameObject.FindObjectsOfType<Enemy>())
         {
             if (Vector3.Distance(enemy.transform.position, transform.position) < 40)
             {
@@ -47,19 +47,13 @@ public class Character : MonoBehaviour {
 
         if (alive)
         {
-            List<GameObject> remove = new List<GameObject>();
-            foreach (GameObject target in BoardController.Instance.targets)
+            foreach (Target target in GameObject.FindObjectsOfType<Target>())
             {
                 if (Vector3.Distance(target.transform.position, transform.position) < 60)
                 {
                     feedLevel = Mathf.Min(MaxFeedLevel, feedLevel+1);
-                    remove.Add(target);
+                    Destroy(target.gameObject);
                 }
-            }
-            foreach (GameObject target in remove)
-            {
-                BoardController.Instance.targets.Remove(target);
-                Destroy(target.gameObject);
             }
         }
 
@@ -127,18 +121,13 @@ public class Character : MonoBehaviour {
             nextNeighbors = new List<Node>();
         }
 
-        List<GameObject> remove = new List<GameObject>();
-        foreach (GameObject enemy in BoardController.Instance.enemies)
+        foreach (Enemy enemy in GameObject.FindObjectsOfType<Enemy>())
         {
             if (Vector3.Distance(enemy.transform.position, transform.position) < 150)
             {
-                remove.Add(enemy);
-                Destroy(enemy);
+                Destroy(enemy.transform.parent.gameObject);
             }
         }
-
-        foreach (var enemy in remove)
-            BoardController.Instance.enemies.Remove(enemy);
 
         MasterAudio.PlaySound("Fart");
     }
