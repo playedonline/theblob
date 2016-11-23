@@ -1,4 +1,5 @@
 using UnityEngine;
+using DG.Tweening;
 
 public class Enemy : MonoBehaviour {
 
@@ -28,6 +29,8 @@ public class Enemy : MonoBehaviour {
         } else {
             Follow();
         }
+
+        CleanTile();
     }
 
     /*
@@ -45,4 +48,13 @@ public class Enemy : MonoBehaviour {
         enemyController.MoveTo(followTarget.position);
     }
 
+    private void CleanTile()
+    {
+        Node node = BoardController.Instance.grid.NodeFromWorldPoint(transform.position);
+        foreach (GameObject splat in node.splats)
+        {
+            splat.GetComponent<SpriteRenderer>().DOColor(new Color(1,1,1,0), 0.7f).OnComplete(() => { Destroy(splat); });
+        }
+        node.splats.Clear();
+    }
 }

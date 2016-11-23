@@ -11,6 +11,7 @@ public class BoardController : MonoBehaviour {
     public static BoardController Instance { get { return instance; } }
 
     float nextTargetSpawnTime;
+    float nextEnemySpawnTime;
 
     void Awake()
     {
@@ -31,6 +32,13 @@ public class BoardController : MonoBehaviour {
             nextTargetSpawnTime = Time.time + Random.Range(2f, 3f);
             GameObject target = (GameObject)Instantiate(Resources.Load("prefabs/core/Target"));
             target.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
+        }
+
+        if (Time.time > nextEnemySpawnTime)
+        {
+            nextEnemySpawnTime = Time.time + Random.Range(2f, 3f);
+            GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
+            enemy.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
         }
     }
 

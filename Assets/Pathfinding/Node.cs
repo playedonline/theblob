@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class Node : IHeapItem<Node> {
 	
@@ -13,6 +13,7 @@ public class Node : IHeapItem<Node> {
 	public int hCost;
 	public Node parent;
 	int heapIndex;
+    public List<GameObject> splats = new List<GameObject>();
 	
 	public Node(bool _walkable, Vector3 _worldPos, int _gridX, int _gridY) {
 		walkable = _walkable;

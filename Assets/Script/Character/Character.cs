@@ -75,6 +75,7 @@ public class Character : MonoBehaviour {
                     splatter.transform.localRotation = Quaternion.AngleAxis(Random.Range(0f, 180f), Vector3.forward);
                     splatter.GetComponent<SpriteRenderer>().color = new Color(1,1,1,Random.Range(0.5f, 0.9f));
                     nextNeighbors.AddRange(BoardController.Instance.grid.GetNeighbours(node));
+                    node.splats.Add(splatter);
                     splats++;
                 }
             }
