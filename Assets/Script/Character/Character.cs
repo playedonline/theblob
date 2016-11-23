@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Net.NetworkInformation;
 using Spine.Unity;
 using UnityEngine;
 
@@ -35,13 +34,13 @@ public class Character : MonoBehaviour {
             }
         }
 
-        string animationPrefix = MaxFeedLevel == 0 ? "small" : MaxFeedLevel == 1 ? "mid" : "big";
+        string animationPrefix = feedLevel == 0 ? "small" : feedLevel == 1 ? "mid" : "big";
         string animationSuffix = controller.isOnPosition ? "idle" : "crwal";
         string animationName = animationPrefix + "_" + animationSuffix;
         if (animation.AnimationName != animationName)
-            animation.AnimationName = animationName;
+            animation.state.SetAnimation(0, animationName, true);
 
-        transform.localScale = new Vector3(controller.isMovingLeft ? 1 : -1, 1, 1);
+		transform.localScale = new Vector3(controller.isMovingLeft ? 1 : -1, 1, 1);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -58,6 +57,7 @@ public class Character : MonoBehaviour {
         Node me = BoardController.Instance.grid.NodeFromWorldPoint(transform.position);
         List<Node> currNeighbors = BoardController.Instance.grid.GetNeighbours(me);
         List<Node> nextNeighbors = new List<Node>();
+        List<Node> splatNodes = new List<Node>();
         currNeighbors.Add(me);
         int splats = 0;
         float chance = 1;
@@ -76,6 +76,8 @@ public class Character : MonoBehaviour {
                     splatter.GetComponent<SpriteRenderer>().color = new Color(1,1,1,Random.Range(0.5f, 0.9f));
                     nextNeighbors.AddRange(BoardController.Instance.grid.GetNeighbours(node));
                     node.splats.Add(splatter);
+                    if (!splatNodes.Contains(node))
+                        splatNodes.Add(node);
                     splats++;
                 }
             }
@@ -84,6 +86,20 @@ public class Character : MonoBehaviour {
             currNeighbors = nextNeighbors;
             nextNeighbors = new List<Node>();
         }
+
+        List<Enemy> remove = new List<Enemy>();
+        foreach (Enemy enemy in BoardController.Instance.enemies)
+        {
+            Node enemyNode = BoardController.Instance.grid.NodeFromWorldPoint(enemy.transform.position);
+            if (splatNodes.Contains(enemyNode))
+            {
+                remove.Add(enemy);
+                Destroy(enemy.gameObject);
+            }
+        }
+
+        foreach (Enemy enemy in remove)
+            BoardController.Instance.enemies.Remove(enemy);
     }
 
 }
