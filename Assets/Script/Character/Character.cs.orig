@@ -119,8 +119,13 @@ public class Character : MonoBehaviour {
             nextNeighbors = new List<Node>();
         }
 
+<<<<<<< HEAD
+        List<Enemy> remove = new List<Enemy>();
+        foreach (Enemy enemy in FindObjectsOfType<Enemy>())
+=======
         List<GameObject> remove = new List<GameObject>();
         foreach (GameObject enemy in BoardController.Instance.enemies)
+>>>>>>> ab7f39580165140d8636a05ad9efe59b224e613d
         {
             if (Vector3.Distance(enemy.transform.position, transform.position) < 150)
             {
@@ -129,7 +134,7 @@ public class Character : MonoBehaviour {
             }
         }
 
-        foreach (var enemy in remove)
+        foreach (GameObject enemy in remove)
             BoardController.Instance.enemies.Remove(enemy);
 
         MasterAudio.PlaySound("Fart");

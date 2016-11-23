@@ -4,11 +4,11 @@
     <list default="true" id="c90ca494-24af-4c62-b3d3-8575f2f406ca" name="Default" comment="" />
     <ignored path=".consulo/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="/Character.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911360496" ignored="false" />
+    <file path="/Character.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911780654" ignored="false" />
     <file path="/CharacterController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479902206447" ignored="false" />
     <file path="/MaskUpdater.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479892353652" ignored="false" />
     <file path="/MeshTest.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479733238252" ignored="false" />
-    <file path="/BoardController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911090153" ignored="false" />
+    <file path="/BoardController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911862472" ignored="false" />
     <file path="/CameraController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479909536481" ignored="false" />
     <file path="/Enemy.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479911024267" ignored="false" />
     <file path="/EnemyController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479908622372" ignored="false" />
@@ -46,10 +46,10 @@
       <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+            <state relative-caret-position="6">
+              <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
               <folding>
-                <marker date="1479909876000" expanded="false" signature="6:77" placeholder="..." />
+                <marker date="1479911660000" expanded="false" signature="6:77" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -70,11 +70,10 @@
       <file leaf-file-name="BoardController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/BoardController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+            <state relative-caret-position="411">
+              <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +82,8 @@
       <file leaf-file-name="Character.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Character/Character.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+            <state relative-caret-position="1620">
+              <caret line="122" column="69" selection-start-line="122" selection-start-column="69" selection-end-line="122" selection-end-column="69" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -356,12 +355,12 @@
       <workItem from="1479731160375" duration="5507000" />
       <workItem from="1479739898339" duration="3574000" />
       <workItem from="1479744946326" duration="13122000" />
-      <workItem from="1479901953046" duration="8519000" />
+      <workItem from="1479901953046" duration="8907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33487000" />
+    <option name="totallyTimeSpent" value="33875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1916" height="1177" extended-state="6" />
@@ -467,7 +466,7 @@
         <state relative-caret-position="585">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <marker date="1479909876000" expanded="false" signature="6:77" placeholder="..." />
+            <marker date="1479911660000" expanded="false" signature="6:77" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -487,7 +486,7 @@
         <state relative-caret-position="315">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,7 +558,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479909876000" expanded="false" signature="6:77" placeholder="..." />
+            <marker date="1479911660000" expanded="false" signature="6:77" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -569,7 +568,7 @@
         <state relative-caret-position="165">
           <caret line="11" column="121" selection-start-line="11" selection-start-column="121" selection-end-line="11" selection-end-column="121" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,7 +604,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,7 +622,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -742,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Character/Character.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        <state relative-caret-position="1620">
+          <caret line="122" column="69" selection-start-line="122" selection-start-column="69" selection-end-line="122" selection-end-column="69" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -762,21 +761,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+        <state relative-caret-position="6">
+          <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
           <folding>
-            <marker date="1479909876000" expanded="false" signature="6:77" placeholder="..." />
+            <marker date="1479911660000" expanded="false" signature="6:77" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/BoardController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        <state relative-caret-position="411">
+          <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -49,9 +49,6 @@ public class BoardController : MonoBehaviour {
 
     void Update()
     {
-        foreach(var enemy in enemies){
-            Debug.Log("if " + (enemy != null));
-        }
         if (Time.time > nextTargetSpawnTime)
         {
             nextTargetSpawnTime = Time.time + Random.Range(minSpawnTarget, maxSpawnTarget);
@@ -63,8 +60,14 @@ public class BoardController : MonoBehaviour {
         {
             nextEnemySpawnTime = Time.time + Random.Range(minSpawnEnemy, maxSpawnEnemy);
             GameObject enemy = Spawn("prefabs/core/Enemy");
+            Debug.Log(">>>> " + enemy);
             totalEnemiesSpawned++;
+<<<<<<< HEAD
+            var enemyComponent = enemy.GetComponentInChildren<Enemy>();
+            enemies.Add(enemyComponent);
+=======
             enemies.Add(enemy);
+>>>>>>> ab7f39580165140d8636a05ad9efe59b224e613d
         }
     }
 
@@ -85,12 +88,13 @@ public class BoardController : MonoBehaviour {
     }
 
     public GameObject Spawn(string type){
+Debug.Log(">>>>>> 1");
         var node = FindUnspatteredArea();
         var position = node.worldPosition;
         var spawn = (GameObject)Instantiate(Resources.Load(type));
         spawn.transform.position = position;
         var previousScale = spawn.transform.localScale;
-        spawn.transform.localScale = 0f * Vector3.one;
+        spawn.transform.localScale = 0.01f * Vector3.one;
 
         var hole = (GameObject)Instantiate(Resources.Load("prefabs/core/Hole"));
         hole.transform.position = position;

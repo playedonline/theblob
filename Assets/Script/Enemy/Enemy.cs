@@ -43,7 +43,8 @@ public class Enemy : MonoBehaviour {
         if(!isInitiated){
             return;
         }
-
+        if (BoardController.Instance.character.alive)
+        {
         var currentNode = board.grid.NodeFromWorldPoint(transform.position);
         var difference = currentNode.worldPosition - transform.position;
         if((frameCount % 100 == 0 || !isThink) && difference.magnitude < 2){
@@ -52,7 +53,8 @@ public class Enemy : MonoBehaviour {
         isThink = difference.magnitude < 2;
         frameCount++;
 
-        CleanTile();
+            CleanTile();
+        }
     }
 
     void OnDrawGizmos(){
