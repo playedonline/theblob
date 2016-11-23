@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class BoardController : MonoBehaviour {
 
@@ -10,6 +10,9 @@ public class BoardController : MonoBehaviour {
     private static BoardController instance;
     public static BoardController Instance { get { return instance; } }
 
+    float nextTargetSpawnTime;
+    float nextEnemySpawnTime;
+
     void Awake()
     {
         instance = this;
@@ -17,15 +20,25 @@ public class BoardController : MonoBehaviour {
         grid = GetComponent<Grid>();
 
         GameObject character = (GameObject)Instantiate(Resources.Load("prefabs/core/Character"));
-        GameObject mask = (GameObject)Instantiate(Resources.Load("prefabs/core/Mask"));
         GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
         enemies.Add(enemy.GetComponent<Enemy>());
 
-        for (int i = 0; i < 20; ++i)
+    }
+
+    void Update()
+    {
+        if (Time.time > nextTargetSpawnTime)
         {
-            GameObject splatter = (GameObject)Instantiate(Resources.Load("prefabs/core/Splatter"));
-            splatter.transform.position = new Vector3(Random.Range(-200, 200), Random.Range(-300, 300));
-            splatter.transform.parent = mask.transform;
+            nextTargetSpawnTime = Time.time + Random.Range(2f, 3f);
+            GameObject target = (GameObject)Instantiate(Resources.Load("prefabs/core/Target"));
+            target.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
+        }
+
+        if (Time.time > nextEnemySpawnTime)
+        {
+            nextEnemySpawnTime = Time.time + Random.Range(2f, 3f);
+            GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
+            enemy.transform.position = grid.grid[Random.Range(0, 10), Random.Range(0, 10)].worldPosition;
         }
     }
 
