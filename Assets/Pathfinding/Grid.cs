@@ -9,7 +9,7 @@ public class Grid : MonoBehaviour {
 	public LayerMask unwalkableMask;
 	public Vector2 gridWorldSize;
 	public float nodeRadius;
-	public Node[,] grid;
+	public Node[,] nodes;
 
 	float nodeDiameter;
 	int gridSizeX, gridSizeY;
@@ -28,14 +28,14 @@ public class Grid : MonoBehaviour {
 	}
 
 	void CreateGrid() {
-		grid = new Node[gridSizeX,gridSizeY];
+		nodes = new Node[gridSizeX,gridSizeY];
 		Vector3 worldBottomLeft = transform.position;
 
 		for (int x = 0; x < gridSizeX; x ++) {
 			for (int y = 0; y < gridSizeY; y ++) {
 				Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) + Vector3.up * (y * nodeDiameter + nodeRadius);
 				bool walkable = !(Physics.CheckSphere(worldPoint, nodeRadius, unwalkableMask));
-				grid[x,y] = new Node(walkable, worldPoint, x, y);
+				nodes[x,y] = new Node(walkable, worldPoint, x, y);
 			}
 		}
 	}
@@ -59,7 +59,7 @@ public class Grid : MonoBehaviour {
             int checkY = node.gridY + y;
 
             if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY) {
-                neighbours.Add(grid[checkX,checkY]);
+                neighbours.Add(nodes[checkX,checkY]);
             }
         }
 
@@ -75,17 +75,17 @@ public class Grid : MonoBehaviour {
 
 		int x = Mathf.RoundToInt((gridSizeX-1) * percentX);
 		int y = Mathf.RoundToInt((gridSizeY-1) * percentY);
-		return grid[x,y];
+		return nodes[x,y];
 	}
 	
 	void OnDrawGizmos() {
         Gizmos.color = Color.blue;
         Vector3 size = new Vector3(gridWorldSize.x, gridWorldSize.y, 1);
 		Gizmos.DrawWireCube(transform.position + size * 0.5f, size);
-		if (grid != null && displayGridGizmos) {
-			foreach (Node n in grid) {
+		if (nodes != null && displayGridGizmos) {
+			foreach (Node n in nodes) {
 				Gizmos.color = (n.walkable)?n.occupy != null ? Color.green : Color.white : Color.red;
-				Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (nodeDiameter*0.95f));
+				Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (nodeDiameter));
 			}
 		}
 	}
