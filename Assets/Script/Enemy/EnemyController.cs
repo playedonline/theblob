@@ -8,8 +8,10 @@ public class EnemyController : MonoBehaviour {
 
     private Node[] path;
     private int targetIndex;
+    private BoardController board;
 
     void Start() {
+        board = FindObjectOfType<BoardController>();
     }
 
     void Update(){
@@ -42,7 +44,7 @@ public class EnemyController : MonoBehaviour {
         if(targetIndex < path.Length){
             return path[targetIndex].worldPosition;
         } else {
-            return target;
+            return board.grid.NodeFromWorldPoint(target).worldPosition;
         }
     }
 

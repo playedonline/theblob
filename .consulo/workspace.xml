@@ -6,13 +6,13 @@
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <file path="/Character.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479735745840" ignored="false" />
     <file path="/CharacterController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479747187303" ignored="false" />
-    <file path="/MaskUpdater.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479744969218" ignored="false" />
+    <file path="/MaskUpdater.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479892353652" ignored="false" />
     <file path="/MeshTest.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479733238252" ignored="false" />
     <file path="/BoardController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479743872528" ignored="false" />
     <file path="/CameraController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479744677973" ignored="false" />
     <file path="/Enemy.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479746300153" ignored="false" />
-    <file path="/EnemyController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479749217565" ignored="false" />
-    <file path="/Grid.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479749175075" ignored="false" />
+    <file path="/EnemyController.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479893484105" ignored="false" />
+    <file path="/Grid.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479893391476" ignored="false" />
     <file path="/Pathfinding.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479749243127" ignored="false" />
     <file path="/PathRequestManager.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479749306080" ignored="false" />
     <file path="/Node.cs" changelist="c90ca494-24af-4c62-b3d3-8575f2f406ca" time="1479749128899" ignored="false" />
@@ -40,8 +40,8 @@
       <file leaf-file-name="EnemyController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="450">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -59,10 +59,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MaskUpdater.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/MaskUpdater.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Pathfinding.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Pathfinding.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
+            <state relative-caret-position="318">
               <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
               <folding />
             </state>
@@ -84,8 +94,8 @@
       <file leaf-file-name="Grid.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Grid.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="963">
-              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+            <state relative-caret-position="1013">
+              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -115,13 +125,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/BoardController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/MaskUpdater.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Character/CharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding/Node.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding/PathRequestManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding/Pathfinding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MaskUpdater.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding/Grid.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy/EnemyController.cs" />
       </list>
@@ -346,12 +356,12 @@
       <workItem from="1479729014346" duration="1041000" />
       <workItem from="1479731160375" duration="5507000" />
       <workItem from="1479739898339" duration="3574000" />
-      <workItem from="1479744946326" duration="4651000" />
+      <workItem from="1479744946326" duration="6328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16497000" />
+    <option name="totallyTimeSpent" value="18174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1916" height="1177" extended-state="6" />
@@ -550,14 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MaskUpdater.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -590,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Node.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Heap.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -608,10 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Pathfinding.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MaskUpdater.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        <state relative-caret-position="813">
+          <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -626,18 +620,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Grid.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        <state relative-caret-position="1013">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Pathfinding.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Pathfinding/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="450">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
