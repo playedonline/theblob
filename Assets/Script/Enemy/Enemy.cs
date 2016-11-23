@@ -20,27 +20,34 @@ public class Enemy : MonoBehaviour {
     private float velocity;
     private bool isThink;
 
+    private bool isInitiated;
+
     void Start(){
         enemyController = GetComponent<EnemyController>();
 
         board = FindObjectOfType<BoardController>();
         wanderNode = board.grid.NodeFromWorldPoint(transform.position);
         transform.position = wanderNode.worldPosition;
+    }
 
+    public void Init(){
+        isInitiated = true;
         Think();
     }
 
     void Update(){
+        if(!isInitiated){
+            return;
+        }
         if (BoardController.Instance.character.alive)
         {
-            var currentNode = board.grid.NodeFromWorldPoint(transform.position);
-            var difference = currentNode.worldPosition - transform.position;
-            if ((frameCount % 100 == 0 || !isThink) && difference.magnitude < 2)
-            {
-                Think();
-            }
-            isThink = difference.magnitude < 2;
-            frameCount++;
+        var currentNode = board.grid.NodeFromWorldPoint(transform.position);
+        var difference = currentNode.worldPosition - transform.position;
+        if((frameCount % 100 == 0 || !isThink) && difference.magnitude < 2){
+            Think();
+        }
+        isThink = difference.magnitude < 2;
+        frameCount++;
 
             CleanTile();
         }

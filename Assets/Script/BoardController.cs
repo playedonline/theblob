@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,14 +18,14 @@ public class BoardController : MonoBehaviour {
     float nextEnemySpawnTime;
 
     public Character character;
-
     void Awake()
     {
         instance = this;
 
         grid = GetComponent<Grid>();
 
-        character = ((GameObject)Instantiate(Resources.Load("prefabs/core/Character"))).GetComponent<Character>();
+        GameObject character = Spawn("prefabs/core/Character", 10, 10);
+
     }
 
     public void Restart()
@@ -43,22 +44,47 @@ public class BoardController : MonoBehaviour {
     {
         if (Time.time > nextTargetSpawnTime)
         {
-            nextTargetSpawnTime = Time.time + Random.Range(1f, 3f);
-            GameObject target = (GameObject)Instantiate(Resources.Load("prefabs/core/Target"));
-            target.transform.position = grid.grid[Random.Range(0, 25), Random.Range(0, 25)].worldPosition;
+            nextTargetSpawnTime = Time.time + Random.Range(3f, 10f);
+            GameObject target = Spawn("prefabs/core/Target", Random.Range(0, grid.nodes.GetLength(0)), Random.Range(0, grid.nodes.GetLength(1)));
             targets.Add(target.GetComponent<Target>());
-        }
+         }
 
         if (Time.time > nextEnemySpawnTime)
         {
-            nextEnemySpawnTime = Time.time + Random.Range(3f, 6f);
-            GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
-            enemy.transform.position = grid.grid[Random.Range(0, 25), Random.Range(0, 25)].worldPosition;
+            nextEnemySpawnTime = Time.time + Random.Range(3f, 10f);
+            GameObject enemy = Spawn("prefabs/core/Enemy", Random.Range(0, grid.nodes.GetLength(0)), Random.Range(0, grid.nodes.GetLength(1)));
             enemies.Add(enemy.GetComponent<Enemy>());
         }
     }
 
     void OnDrawGizmos(){
+    }
+
+    public GameObject Spawn(string type, int x, int y){
+
+        var position = grid.nodes[x, y].worldPosition;
+        var spawn = (GameObject)Instantiate(Resources.Load(type));
+        spawn.transform.position = position;
+        spawn.transform.localScale = Vector3.zero;
+
+        var hole = (GameObject)Instantiate(Resources.Load("prefabs/core/Hole"));
+        hole.transform.position = position;
+        hole.transform.localScale = new Vector3(1, 0, 1);
+
+        var sequence = DOTween.Sequence();
+        sequence.AppendInterval(1);
+        sequence.Append(hole.transform.DOScaleY(1, 0.25f));
+        var openDuration = sequence.Duration();
+        sequence.AppendInterval(0.2f);
+        sequence.Append(spawn.transform.DOScale(1, 0.7f).SetEase(Ease.OutBack));
+        sequence.Insert(openDuration + 0.2f, hole.transform.DOScaleY(0, 0.25f));
+        sequence.AppendCallback(() => {
+            try{
+                spawn.BroadcastMessage("Init");
+            } catch(System.Exception){}
+        });
+
+        return spawn;
     }
 
 }
