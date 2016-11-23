@@ -25,8 +25,9 @@ public class Character : MonoBehaviour {
 
     void Update(){
 
-        foreach (Enemy enemy in BoardController.Instance.enemies)
+        foreach (GameObject enemy in BoardController.Instance.enemies)
         {
+            Debug.Log(enemy);
             if (Vector3.Distance(enemy.transform.position, transform.position) < 40)
             {
                 alive = false;
@@ -37,8 +38,8 @@ public class Character : MonoBehaviour {
 
         if (alive)
         {
-            List<Target> remove = new List<Target>();
-            foreach (Target target in BoardController.Instance.targets)
+            List<GameObject> remove = new List<GameObject>();
+            foreach (GameObject target in BoardController.Instance.targets)
             {
                 if (Vector3.Distance(target.transform.position, transform.position) < 60)
                 {
@@ -46,7 +47,7 @@ public class Character : MonoBehaviour {
                     remove.Add(target);
                 }
             }
-            foreach (Target target in remove)
+            foreach (GameObject target in remove)
             {
                 BoardController.Instance.targets.Remove(target);
                 Destroy(target.gameObject);
@@ -117,17 +118,17 @@ public class Character : MonoBehaviour {
             nextNeighbors = new List<Node>();
         }
 
-        List<Enemy> remove = new List<Enemy>();
-        foreach (Enemy enemy in BoardController.Instance.enemies)
+        List<GameObject> remove = new List<GameObject>();
+        foreach (GameObject enemy in BoardController.Instance.enemies)
         {
             if (Vector3.Distance(enemy.transform.position, transform.position) < 150)
             {
                 remove.Add(enemy);
-                Destroy(enemy.gameObject);
+                Destroy(enemy);
             }
         }
 
-        foreach (Enemy enemy in remove)
+        foreach (GameObject enemy in remove)
             BoardController.Instance.enemies.Remove(enemy);
     }
 

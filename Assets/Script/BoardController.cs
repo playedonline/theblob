@@ -8,8 +8,8 @@ public class BoardController : MonoBehaviour {
 
     public Grid grid;
 
-    public List<Enemy> enemies = new List<Enemy>();
-    public List<Target> targets = new List<Target>();
+    public List<GameObject> enemies = new List<GameObject>();
+    public List<GameObject> targets = new List<GameObject>();
 
     private static BoardController instance;
     public static BoardController Instance { get { return instance; } }
@@ -28,10 +28,11 @@ public class BoardController : MonoBehaviour {
     void Awake()
     {
         instance = this;
-
+    }
+    void Start()
+    {
         grid = GetComponent<Grid>();
-
-        GameObject character = Spawn("prefabs/core/Character");
+        character = Spawn("prefabs/core/Character").GetComponent<Character>();
     }
 
     public void Restart()
@@ -52,15 +53,16 @@ public class BoardController : MonoBehaviour {
         {
             nextTargetSpawnTime = Time.time + Random.Range(minSpawnTarget, maxSpawnTarget);
             GameObject target = Spawn("prefabs/core/Target");
-            targets.Add(target.GetComponent<Target>());
+            targets.Add(target);
         }
 
         if (Time.time > nextEnemySpawnTime)
         {
             nextEnemySpawnTime = Time.time + Random.Range(minSpawnEnemy, maxSpawnEnemy);
             GameObject enemy = Spawn("prefabs/core/Enemy");
+            Debug.Log(">>>> " + enemy);
             totalEnemiesSpawned++;
-            enemies.Add(enemy.GetComponent<Enemy>());
+            enemies.Add(enemy);
         }
     }
 
@@ -81,13 +83,13 @@ public class BoardController : MonoBehaviour {
     }
 
     public GameObject Spawn(string type){
-
+Debug.Log(">>>>>> 1");
         var node = FindUnspatteredArea();
         var position = node.worldPosition;
         var spawn = (GameObject)Instantiate(Resources.Load(type));
         spawn.transform.position = position;
         var previousScale = spawn.transform.localScale;
-        spawn.transform.localScale = Vector3.zero;
+        spawn.transform.localScale = 0.01f * Vector3.one;
 
         var hole = (GameObject)Instantiate(Resources.Load("prefabs/core/Hole"));
         hole.transform.position = position;
