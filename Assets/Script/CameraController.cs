@@ -12,8 +12,25 @@ public class CameraController : MonoBehaviour{
 
     void Start(){
         camera = Camera.main;
-        target = FindObjectOfType<Character>().transform;
         board = FindObjectOfType<BoardController>();
+
+        SetTarget(FindObjectOfType<Character>().transform);
+    }
+
+    public void SetTarget(Transform target){
+        this.target = target;
+        Vector3 point = camera.WorldToViewportPoint(target.position);
+        Vector3 delta = target.position - camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, point.z)); //(new Vector3(0.5, 0.5, point.z));
+        Vector3 targetPosition = transform.position + delta;
+
+        var cameraHeight = camera.orthographicSize;
+        var cameraWidth = camera.aspect * cameraHeight;
+
+        targetPosition.x = Mathf.Clamp(targetPosition.x, cameraWidth, board.grid.gridWorldSize.x - cameraWidth);
+        targetPosition.y = Mathf.Clamp(targetPosition.y, cameraHeight, board.grid.gridWorldSize.y - cameraHeight);
+
+        transform.position = targetPosition;
+        transform.position = targetPosition;
     }
 
     void LateUpdate(){

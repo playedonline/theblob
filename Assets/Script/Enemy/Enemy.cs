@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour {
 
     private float velocity;
     private bool isThink;
+    private Tween cleanTween;
 
     private bool isInitiated;
 
@@ -36,6 +37,9 @@ public class Enemy : MonoBehaviour {
     }
 
     void Update(){
+
+        transform.localScale = new Vector3(enemyController.isMovingLeft ? 1 : -1, 1, 1);
+
         if(!isInitiated){
             return;
         }
@@ -115,6 +119,15 @@ public class Enemy : MonoBehaviour {
     private void CleanTile()
     {
         Node node = BoardController.Instance.grid.NodeFromWorldPoint(transform.position);
+        if(node.splats.Count > 0){
+            enemyController.currentSpeed = enemyController.cleanSpead;
+            if(cleanTween != null){
+                cleanTween.Kill();
+            }
+            cleanTween = DOVirtual.DelayedCall(2, () => {
+                enemyController.currentSpeed = enemyController.speed;
+            });
+        }
         foreach (GameObject splat in node.splats)
         {
             splat.GetComponent<SpriteRenderer>().DOColor(new Color(1,1,1,0), 0.7f).OnComplete(() => { Destroy(splat); });

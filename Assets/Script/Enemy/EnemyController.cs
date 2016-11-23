@@ -6,8 +6,11 @@ public class EnemyController : MonoBehaviour {
     public Action reachedWaypoint;
 
     public Vector2 target;
-    public float speed = 100;
+    public float currentSpeed;
+    public float speed = 120;
+    public float cleanSpead = 50;
     public bool isMove;
+    public bool isMovingLeft;
 
     private Node[] path;
     private int targetIndex;
@@ -15,6 +18,7 @@ public class EnemyController : MonoBehaviour {
     private bool isReached;
 
     void Start() {
+        currentSpeed = speed;
         board = FindObjectOfType<BoardController>();
     }
 
@@ -49,7 +53,8 @@ public class EnemyController : MonoBehaviour {
                 currentWaypoint = GetWaypoint();
             }
         } else {
-            transform.position = Vector3.MoveTowards(transform.position,currentWaypoint,speed * Time.deltaTime);
+            isMovingLeft = (transform.position - currentWaypoint).x > 0;
+            transform.position = Vector3.MoveTowards(transform.position,currentWaypoint,currentSpeed * Time.deltaTime);
         }
     }
 
