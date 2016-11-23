@@ -43,19 +43,25 @@ public class Grid : MonoBehaviour {
 	public List<Node> GetNeighbours(Node node) {
 		List<Node> neighbours = new List<Node>();
 
-		for (int x = -1; x <= 1; x++) {
-			for (int y = -1; y <= 1; y++) {
-				if (x == 0 && y == 0)
-					continue;
+		var directions = new Vector2[]{
+            new Vector2(1, 0),
+            new Vector2(-1, 0),
+            new Vector2(0, 1),
+            new Vector2(0, -1),
+        };
 
-				int checkX = node.gridX + x;
-				int checkY = node.gridY + y;
+        foreach(var direction in directions){
 
-				if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY) {
-					neighbours.Add(grid[checkX,checkY]);
-				}
-			}
-		}
+            int x = (int)direction.x;
+            int y = (int)direction.y;
+
+            int checkX = node.gridX + x;
+            int checkY = node.gridY + y;
+
+            if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY) {
+                neighbours.Add(grid[checkX,checkY]);
+            }
+        }
 
 		return neighbours;
 	}
