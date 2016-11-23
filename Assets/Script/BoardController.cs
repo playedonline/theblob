@@ -17,7 +17,6 @@ public class BoardController : MonoBehaviour {
         grid = GetComponent<Grid>();
 
         GameObject character = (GameObject)Instantiate(Resources.Load("prefabs/core/Character"));
-        GameObject mask = (GameObject)Instantiate(Resources.Load("prefabs/core/Mask"));
         GameObject enemy = (GameObject)Instantiate(Resources.Load("prefabs/core/Enemy"));
         enemies.Add(enemy.GetComponent<Enemy>());
 
@@ -25,7 +24,6 @@ public class BoardController : MonoBehaviour {
         {
             GameObject splatter = (GameObject)Instantiate(Resources.Load("prefabs/core/Splatter"));
             splatter.transform.position = new Vector3(Random.Range(-200, 200), Random.Range(-300, 300));
-            splatter.transform.parent = mask.transform;
         }
     }
 

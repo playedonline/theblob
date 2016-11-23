@@ -24,7 +24,6 @@ public class Character : MonoBehaviour {
                     feedLevel = 0;
                     GameObject splatter = (GameObject)Instantiate(Resources.Load("prefabs/core/Splatter"));
                     splatter.transform.position = transform.position;
-                    StartCoroutine(BoardController.Instance.maskUpdater.AddSplatter(splatter.GetComponent<SpriteRenderer>()));
                 }
             }
             else
