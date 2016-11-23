@@ -31,15 +31,19 @@ public class Enemy : MonoBehaviour {
     }
 
     void Update(){
-        var currentNode = board.grid.NodeFromWorldPoint(transform.position);
-        var difference = currentNode.worldPosition - transform.position;
-        if((frameCount % 100 == 0 || !isThink) && difference.magnitude < 2){
-            Think();
-        }
-        isThink = difference.magnitude < 2;
-        frameCount++;
+        if (BoardController.Instance.character.alive)
+        {
+            var currentNode = board.grid.NodeFromWorldPoint(transform.position);
+            var difference = currentNode.worldPosition - transform.position;
+            if ((frameCount % 100 == 0 || !isThink) && difference.magnitude < 2)
+            {
+                Think();
+            }
+            isThink = difference.magnitude < 2;
+            frameCount++;
 
-        CleanTile();
+            CleanTile();
+        }
     }
 
     void OnDrawGizmos(){
