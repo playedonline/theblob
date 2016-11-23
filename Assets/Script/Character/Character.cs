@@ -17,6 +17,8 @@ public class Character : MonoBehaviour {
 
     SkeletonAnimation animation;
 
+    private bool isInitiated;
+
     void Start(){
         alive = true;
         controller = GetComponent<CharacterController>();
@@ -24,11 +26,17 @@ public class Character : MonoBehaviour {
         touchCollider = GetComponent<Collider2D>();
     }
 
+    public void Init(){
+        isInitiated = true;
+    }
+
     void Update(){
+        if(!isInitiated){
+            return;
+        }
 
         foreach (GameObject enemy in BoardController.Instance.enemies)
         {
-            Debug.Log(enemy);
             if (Vector3.Distance(enemy.transform.position, transform.position) < 40)
             {
                 alive = false;
