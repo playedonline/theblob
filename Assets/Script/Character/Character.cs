@@ -71,7 +71,7 @@ public class Character : MonoBehaviour {
                 {
                     GameObject splatter = (GameObject)Instantiate(Resources.Load("prefabs/core/Splat" + Random.Range(0,8)));
                     splatter.transform.position = node.worldPosition + new Vector3(Random.Range(-10f, 10f), Random.Range(-10f, 10f));
-                    splatter.transform.localScale = Random.Range(0.8f, 1.2f) * Vector3.one;
+                    splatter.transform.localScale = Random.Range(2f, 3f) * Vector3.one;
                     splatter.transform.localRotation = Quaternion.AngleAxis(Random.Range(0f, 180f), Vector3.forward);
                     splatter.GetComponent<SpriteRenderer>().color = new Color(1,1,1,Random.Range(0.5f, 0.9f));
                     nextNeighbors.AddRange(BoardController.Instance.grid.GetNeighbours(node));
@@ -82,7 +82,7 @@ public class Character : MonoBehaviour {
                 }
             }
 
-            chance *= 0.5f;
+            chance *= 0.4f;
             currNeighbors = nextNeighbors;
             nextNeighbors = new List<Node>();
         }
