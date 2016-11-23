@@ -8,6 +8,7 @@ public class CharacterController : MonoBehaviour{
 
     public Vector2 target;
     public bool isOnPosition;
+    public bool isMovingLeft;
     private Rigidbody2D rigidbody;
 
     void Awake(){
@@ -52,6 +53,8 @@ public class CharacterController : MonoBehaviour{
         float slowFactor = Mathf.Min(distance / radiusSlow, 1);
         float speed = moveSpeed * slowFactor;
         transform.position += (Vector3)(moveTo.normalized * Time.deltaTime * speed);
+
+        isMovingLeft = moveTo.x < 0;
     }
 
 }

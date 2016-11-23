@@ -6,6 +6,8 @@ public class CameraController : MonoBehaviour{
     public BoardController board;
     public Transform target;
     public Camera camera;
+    public float startRadius;
+
     private Vector3 velocity = Vector3.zero;
 
     void Start(){
@@ -19,9 +21,15 @@ public class CameraController : MonoBehaviour{
             return;
         }
 
+        Vector3 pannedTarget = target.position - new Vector3(transform.position.x, transform.position.y, target.position.z);
+        if(pannedTarget.magnitude < startRadius){
+            return;
+        }
+        pannedTarget = pannedTarget.normalized * startRadius;
+
         Vector3 point = camera.WorldToViewportPoint(target.position);
         Vector3 delta = target.position - camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, point.z)); //(new Vector3(0.5, 0.5, point.z));
-        Vector3 destination = transform.position + delta;
+        Vector3 destination = transform.position + delta - pannedTarget;
         Vector3 targetPosition = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
 
         var cameraHeight = camera.orthographicSize;
