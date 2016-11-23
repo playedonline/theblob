@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
      <Compile Include="Assets\Pathfinding\Grid.cs" />
      <Compile Include="Assets\Pathfinding\Heap.cs" />
      <Compile Include="Assets\Pathfinding\Node.cs" />
@@ -56,7 +57,7 @@
      <Compile Include="Assets\Script\Character\CharacterController.cs" />
      <Compile Include="Assets\Script\Enemy\Enemy.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyController.cs" />
-     <Compile Include="Assets\Script\MaskUpdater.cs" />
+     <Compile Include="Assets\Script\Target.cs" />
      <Compile Include="Assets\SpriteMask\Examples\Scripts\SpriteMaskExample05.cs" />
      <Compile Include="Assets\SpriteMask\Examples\Scripts\SpriteMaskExample06.cs" />
      <Compile Include="Assets\SpriteMask\Examples\Scripts\SpriteMaskExample06Rotator.cs" />
@@ -70,11 +71,19 @@
      <Compile Include="Assets\SpriteMask\Scripts\SpriteMask.cs" />
      <Compile Include="Assets\SpriteMask\Scripts\SpriteMaskingComponent.cs" />
      <Compile Include="Assets\SpriteMask\Scripts\SpriteMaskingPart.cs" />
+     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
      <None Include="Assets\SpriteMask\Readme.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
      <None Include="Assets\SpriteMask\Resources\ClearStencil.shader" />
      <None Include="Assets\SpriteMask\Resources\SpriteMask.shader" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\SpriteMask\Resources\SpriteDefault.shader" />
      <None Include="Assets\SpriteMask\Resources\SpriteDiffuse.shader" />
+     <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -83,6 +92,24 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/elibroide/Development/TheBlob/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/elibroide/Development/TheBlob/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/elibroide/Development/TheBlob/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/elibroide/Development/TheBlob/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/elibroide/Development/TheBlob/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/elibroide/Development/TheBlob/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

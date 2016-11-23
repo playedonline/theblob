@@ -112,8 +112,7 @@
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Character/CharacterController.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/Enemy.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Enemy/EnemyController.cs" />
-          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/MaskUpdater.cs" />
-          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/MaskUpdater.cs.meta" />
+          <content url="file://$USER_HOME$/Development/TheBlob/Assets/Script/Target.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample05.cs" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample05.cs.meta" />
           <content url="file://$USER_HOME$/Development/TheBlob/Assets/SpriteMask/Examples/Scripts/SpriteMaskExample06.cs" />
