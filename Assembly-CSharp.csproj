@@ -58,6 +58,7 @@
      <Compile Include="Assets\Script\Character\CharacterController.cs" />
      <Compile Include="Assets\Script\Enemy\Enemy.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyController.cs" />
+     <Compile Include="Assets\Script\Floating.cs" />
      <Compile Include="Assets\Script\Target.cs" />
      <Compile Include="Assets\SpriteMask\Examples\Scripts\SpriteMaskExample05.cs" />
      <Compile Include="Assets\SpriteMask\Examples\Scripts\SpriteMaskExample06.cs" />
@@ -168,6 +169,7 @@
      <None Include="Assets\SpriteMask\Resources\SpriteDefault.shader" />
      <None Include="Assets\SpriteMask\Resources\SpriteDiffuse.shader" />
      <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Resources\robot.atlas.txt" />
      <None Include="Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
      <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
      <None Include="Assets\spine-unity\Shaders\SkeletonLit.shader" />
